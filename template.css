@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+nav {
+    background-color: black;
+    height: 40px;
+}
+
+nav a {
+    color: white;
+    font-size: 14px;
+    float: left;
+}
+
+nav a:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+i {
+    padding: 13px 16px;
+}
+
+.sr {
+    float: right;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 45px;
+    padding: 24px;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.home {
+    font-size: 15px;
+    padding: 70px;
+    padding-top: 0%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.jane {
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bigimg {
+    margin: 0 auto;
+    position: relative;
+}
+
+.himg {
+    position: absolute;
+    bottom: 300px;
+    left: 30px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bimg {
+    font-weight: 100;
+}
+
+.bimgb {
+    font-size: 60px;
+}
+
+.butimg {
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.butimg:hover {
+    background-color: lightgray;
+}
+
+.ldiv1 {
+    width: 64%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin: 12px;
+    margin-bottom: 0%;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 30;
+    padding: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 30;
+    padding: 20px;
+    padding-top: 0%;
+}
+
+.rdiv1 {
+    width: 30%;
+    background-color: black;
+    float: right;
+    color: white;
+    margin: 15px;
+    position: relative;
+    right: 20px;
+    bottom: 2px;
+}
+
+.rdiv1 img {
+    width: 100%;
+}
+
+.myname {
+    padding: 20px;
+    padding-bottom: 0%;
+}
+
+.pr1 {
+    padding: 20px;
+}
+
+.ulr {
+    list-style-type: none;
+}
+
+.rdiv2 {
+    width: 30%;
+    background-color: white;
+    color: black;
+    position: relative;
+    float: right;
+    right: 20px;
+    margin: 15px;
+
+}
+
+.lir img {
+    position: relative;
+    float: left;
+    width: 20%;
+    right: 20px;
+    top: 15px;
+}
+
+.rr2 {
+    width: 70%;
+    position: relative;
+    top: 20px;
+}
+
+.lir {
+    height: 80px;
+}
+
+.h4r1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.ldiv2 {
+    width: 64%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0%;
+    position: relative;
+    margin: 0px 12px;
+    text-align: left;
+}
+
+.ldiv3 {
+    width: 64%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin: 0px 12px;
+    text-align: left;
+}
+
+.ad {
+    width: 30%;
+    background-color: white;
+    float: right;
+    color: black;
+    margin: 15px;
+    position: relative;
+    right: 20px;
+}
+
+.ad2 {
+    height: 200px;
+    background-color: #f1f1f1;
+    margin: 15px;
+    text-align: center;
+}
+
+.add {
+    position: relative;
+    top: 90px;
+}
+
+.foot {
+    width: 64%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin: 0px 12px;
+
+}
+
+.imgfoot {
+    width: 90px;
+}
+
+.imgfoot img {
+    width: 120px;
+    float: left;
+    padding-right: 20px;
+}
+
+.sfoot {
+    color: gray;
+    font-size: medium;
+}
+
+.tags {
+    width: 30%;
+    background-color: white;
+    float: right;
+    color: black;
+    margin: 15px;
+    position: relative;
+    right: 20px;
+}
+
+.sp1 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 3px;
+}
+
+.scsp {
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin: 10px 1px;
+    font-size: small;
+}
+
+.ins {
+    width: 30%;
+    background-color: white;
+    float: right;
+    color: black;
+    margin: 15px;
+    position: relative;
+    right: 20px;
+}
+
+.insimg1 img {
+    width: 185px;
+    padding: 10px;
+}
+
+.fol {
+    width: 30%;
+    background-color: white;
+    float: right;
+    margin: 15px;
+    position: relative;
+    right: 20px;
+}
+
+.foli i {
+    font-size: 30px;
+    padding: 1px;
+
+}
+
+.foli {
+    margin: 10px;
+}
+
+.email {
+    width: 30%;
+    background-color: white;
+    color: black;
+    position: relative;
+    float: right;
+    right: 20px;
+    margin: 15px;
+}
+
+.ema {
+    padding: 10px;
+}
+
+.emailt {
+    width: 90%;
+    height: 40px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    left: 19px;
+    font-size: medium;
+}
+
+.subs {
+    width: 90%;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 19px;
+    margin: 10px 0;
+    background-color: #f44336;
+    color: white;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+
+}
+
+.buttonlike :hover {
+    background-color: lightgray;
+}
+
+.buttomrep :hover {
+    background-color: lightgray;
+    color: black;
+    border: none;
+}
+
+.buttonlike {
+    width: 40%;
+
+}
+
+.buttomrep {
+    position: relative;
+    bottom: 40px;
+}
+
+.likepart {
+    width: 64%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin: 0px 12px;
+}
+
+.like1 {
+    background-color: white;
+    border: 1px gray solid;
+}
+
+.replies {
+    background-color: black;
+    color: white;
+    float: right;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.num {
+    background-color: white;
+    color: black;
+    padding: 2px 6px;
+}
+
+.num :hover {
+    background-color: white;
+}
+
+.like2 {
+    position: relative;
+    right: 8px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.604);
+    width: 100%;
+    float: left;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer i {
+    color: white;
+}
+
+.footerbutton {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    transition: ;
+}
