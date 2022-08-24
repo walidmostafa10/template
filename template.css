@@ -1,3 +1,13 @@
+@font-face {
+    font-family: oswald;
+    src: url('../template/fonts/Oswald-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('../template/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -473,8 +483,6 @@ footer i {
     .himg {
         position: absolute;
         top: 10%;
-
-
     }
 
     .bimg {
@@ -501,11 +509,12 @@ footer i {
 
 @media only screen and (max-width: 767px) {
 
-    .textf {
+    .textf h4,
+    p {
         float: right;
-        width: 80%;
+        width: 50%;
         text-align: left;
-        margin-top: 25px;
+        margin-top: 35px;
     }
 
 }
