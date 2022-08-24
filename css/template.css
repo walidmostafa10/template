@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* start navbar */
+nav {
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    padding: 10px 16px;
+    display: inline-block;
+    background-color: black;
+
+}
+
+nav a:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+.sr {
+    float: right;
+}
+
+/* end navbar */
+
+/* start header */
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 45px;
+    padding: 24px;
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.home {
+    font-size: 15px;
+    padding: 70px;
+    padding-top: 0%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.jane {
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bigimg {
+    position: relative;
+}
+
+.himg {
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bimg {
+    font-weight: 100;
+}
+
+.bimgb {
+    font-size: 60px;
+}
+
+.butimg {
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.butimg:hover {
+    background-color: lightgray;
+}
+
+/* end header */
+
+/* start main */
+main {
+    margin: 10px;
+}
+
+/* start leftside */
+
+
+.leftside {
+    display: inline-block;
+
+    width: 65%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+article {
+    background: white;
+    padding: 0 20px;
+}
+
+.cl {
+    clear: both;
+    content: " ";
+}
+
+.leftside article {
+    text-align: center;
+    font-size: larger;
+}
+
+.leftside article h3 {
+    padding: 20px;
+    font-weight: 100;
+}
+
+.leftside article h5 {
+    padding: 20px;
+    padding-top: 0;
+    font-weight: 100;
+}
+
+.shead {
+    color: #a0a0a0;
+    font-weight: 100;
+}
+
+.leftside article p {
+    text-align: left;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+/* start buttons */
+
+.buttonsdiv {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.likeb {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-size: large;
+    float: left;
+
+}
+
+.likeb:hover {
+    background-color: lightgray;
+}
+
+.repb {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: medium;
+    float: right;
+}
+
+.repb:hover {
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+
+.num {
+    color: black;
+    background-color: white;
+    padding: 2px 6px;
+}
+
+/* end buttons */
+.articlefooter {
+    border-top: lightgray solid 1px;
+
+
+}
+
+.imgf {
+    width: 13%;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+}
+
+.textf {
+    float: right;
+    width: 84%;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.textf h4 {
+    font-weight: 100;
+}
+
+.shead {
+    font-size: medium;
+}
+
+.arc2 {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* start rightside */
+
+.rightside {
+    display: inline-block;
+    float: right;
+    width: 35%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+}
+
+
+.textg {
+    background-color: black;
+
+    color: white;
+    margin-top: -10px;
+    text-align: left;
+    padding: 20px;
+}
+
+.textg h4 {
+    padding-bottom: 10px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.sechead {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.secbody {
+    background-color: white;
+}
+
+.list {
+    background-color: white;
+    border-top: lightgray solid 1px;
+}
+
+.list:hover {
+    background-color: lightgray;
+}
+
+.imglist {
+    width: 15%;
+    margin: 10px;
+    float: left;
+}
+
+.textlist {
+    float: right;
+    width: 79%;
+    padding-top: 15px;
+}
+
+.secbody2 {
+    background-color: white;
+    padding: 15px;
+}
+
+.pgright {
+
+    padding: 100px;
+    text-align: center;
+    background-color: #f1f1f1;
+
+}
+
+.secbody3 {
+    padding: 10px;
+    background-color: white;
+}
+
+.scspan1 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 3px;
+    padding: 0px 6px;
+}
+
+.scspans {
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin: 10px 1px;
+    font-size: small;
+    padding: 0px 6px;
+}
+
+.imgs1 {
+    width: 50%;
+    float: left;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.imgs1 img {
+    padding-bottom: 10px;
+}
+
+.imgs2 img {
+    padding-bottom: 10px;
+}
+
+.imgs2 {
+    width: 50%;
+    float: right;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.secbody4 {
+    background-color: white;
+    padding: 15px;
+
+}
+
+.secbody4 i {
+    font-size: 25px;
+    padding: 1px;
+}
+
+.secbody4 i:hover {
+    color: #a0a0a0;
+}
+
+.secbody5 {
+    background-color: white;
+    padding: 15px;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.subbotton {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.subbotton:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+
+
+
+/* end rightside */
+
+/* start fotter */
+footer {
+    background-color: #616161;
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer i {
+
+    padding: 0px 10px;
+}
+
+.footerbutton {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 40px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.footerbutton:hover {
+    background-color: #f1f1f1;
+}
+
+.footerbutton:hover a {
+    color: black;
+}
+
+
+
+/* end fotter */
+@media only screen and (max-width: 393px) {
+
+    .textlist {
+        float: right;
+        width: 75%;
+        padding-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 368px) {
+
+    .h1 {
+        font-size: 35px;
+        padding: 24px;
+        padding-top: 60px;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+    .home {
+        font-size: 10px;
+        padding: 70px;
+        padding-top: 0%;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+    .himg {
+        position: absolute;
+        top: 10%;
+
+
+    }
+
+    .bimg {
+        font-weight: 50;
+    }
+
+    .bimgb {
+        font-size: 30px;
+    }
+
+    .butimg {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        background-color: rgba(255, 255, 255, 0.47);
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1086px) {
+    .rightside {
+
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+
+    }
+
+    .leftside {
+
+
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+
+}

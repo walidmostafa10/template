@@ -1,21 +1,47 @@
+@font-face {
+    font-family: oswald;
+    src: url('../template/fonts/Oswald-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('../template/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: oswald;
+}
+
+body {
+    font-family: opensans;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #f1f1f1;
 }
 
+/* start navbar */
 nav {
     background-color: black;
-    height: 40px;
 }
 
 nav a {
     color: white;
-    font-size: 14px;
-    float: left;
+    padding: 10px 16px;
+    display: inline-block;
+    background-color: black;
+
 }
 
 nav a:hover {
@@ -23,13 +49,13 @@ nav a:hover {
     background-color: lightgray;
 }
 
-i {
-    padding: 13px 16px;
-}
-
 .sr {
     float: right;
 }
+
+/* end navbar */
+
+/* start header */
 
 header {
     background-color: white;
@@ -61,13 +87,12 @@ header {
 }
 
 .bigimg {
-    margin: 0 auto;
     position: relative;
 }
 
 .himg {
     position: absolute;
-    bottom: 300px;
+    top: 30%;
     left: 30px;
     font-size: 22px;
     color: white;
@@ -96,321 +121,315 @@ header {
     background-color: lightgray;
 }
 
-.ldiv1 {
-    width: 64%;
-    float: left;
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    position: relative;
-    margin: 12px;
-    margin-bottom: 0%;
+/* end header */
+
+/* start main */
+main {
+    margin: 10px;
 }
 
-h3 {
-    font-size: 30px;
-    font-weight: 30;
-    padding: 20px;
-}
+/* start leftside */
 
-h5 {
-    font-size: 20px;
-    font-weight: 30;
-    padding: 20px;
-    padding-top: 0%;
-}
 
-.rdiv1 {
-    width: 30%;
-    background-color: black;
-    float: right;
-    color: white;
-    margin: 15px;
-    position: relative;
-    right: 20px;
-    bottom: 2px;
-}
+.leftside {
+    display: inline-block;
 
-.rdiv1 img {
-    width: 100%;
-}
-
-.myname {
-    padding: 20px;
-    padding-bottom: 0%;
-}
-
-.pr1 {
-    padding: 20px;
-}
-
-.ulr {
-    list-style-type: none;
-}
-
-.rdiv2 {
-    width: 30%;
-    background-color: white;
-    color: black;
-    position: relative;
-    float: right;
-    right: 20px;
-    margin: 15px;
-
-}
-
-.lir img {
-    position: relative;
-    float: left;
-    width: 20%;
-    right: 20px;
-    top: 15px;
-}
-
-.rr2 {
-    width: 70%;
-    position: relative;
-    top: 20px;
-}
-
-.lir {
-    height: 80px;
-}
-
-.h4r1 {
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
-
-.ldiv2 {
-    width: 64%;
-    float: left;
-    background-color: white;
-    padding: 20px;
-    padding-bottom: 0%;
-    position: relative;
-    margin: 0px 12px;
-    text-align: left;
-}
-
-.ldiv3 {
-    width: 64%;
-    float: left;
-    background-color: white;
-    padding: 20px;
-    position: relative;
-    margin: 0px 12px;
-    text-align: left;
-}
-
-.ad {
-    width: 30%;
-    background-color: white;
-    float: right;
-    color: black;
-    margin: 15px;
-    position: relative;
-    right: 20px;
-}
-
-.ad2 {
-    height: 200px;
+    width: 65%;
     background-color: #f1f1f1;
-    margin: 15px;
-    text-align: center;
-}
-
-.add {
-    position: relative;
-    top: 90px;
-}
-
-.foot {
-    width: 64%;
-    float: left;
-    background-color: white;
     padding: 20px;
-    position: relative;
-    margin: 0px 12px;
-
 }
 
-.imgfoot {
-    width: 90px;
+article {
+    background: white;
+    padding: 0 20px;
 }
 
-.imgfoot img {
-    width: 120px;
+.cl {
+    clear: both;
+    content: " ";
+}
+
+.leftside article {
+    text-align: center;
+    font-size: larger;
+}
+
+.leftside article h3 {
+    padding: 20px;
+    font-weight: 100;
+}
+
+.leftside article h5 {
+    padding: 20px;
+    padding-top: 0;
+    font-weight: 100;
+}
+
+.shead {
+    color: #a0a0a0;
+    font-weight: 100;
+}
+
+.leftside article p {
+    text-align: left;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+/* start buttons */
+
+.buttonsdiv {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.likeb {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-size: large;
     float: left;
-    padding-right: 20px;
+
 }
 
-.sfoot {
-    color: gray;
+.likeb:hover {
+    background-color: lightgray;
+}
+
+.repb {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: medium;
+    float: right;
+}
+
+.repb:hover {
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+
+.num {
+    color: black;
+    background-color: white;
+    padding: 2px 6px;
+}
+
+/* end buttons */
+.articlefooter {
+    border-top: lightgray solid 1px;
+
+
+}
+
+.imgf {
+    width: 13%;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+}
+
+.textf {
+    float: right;
+    width: 84%;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.textf h4 {
+    font-weight: 100;
+}
+
+.shead {
     font-size: medium;
 }
 
-.tags {
-    width: 30%;
-    background-color: white;
-    float: right;
-    color: black;
-    margin: 15px;
-    position: relative;
-    right: 20px;
+.arc2 {
+    margin-top: 40px;
 }
 
-.sp1 {
+
+
+
+
+
+
+
+
+/* start rightside */
+
+.rightside {
+    display: inline-block;
+    float: right;
+    width: 35%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+}
+
+
+.textg {
+    background-color: black;
+
+    color: white;
+    margin-top: -10px;
+    text-align: left;
+    padding: 20px;
+}
+
+.textg h4 {
+    padding-bottom: 10px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.sechead {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.secbody {
+    background-color: white;
+}
+
+.list {
+    background-color: white;
+    border-top: lightgray solid 1px;
+}
+
+.list:hover {
+    background-color: lightgray;
+}
+
+.imglist {
+    width: 15%;
+    margin: 10px;
+    float: left;
+}
+
+.textlist {
+    float: right;
+    width: 79%;
+    padding-top: 15px;
+}
+
+.secbody2 {
+    background-color: white;
+    padding: 15px;
+}
+
+.pgright {
+
+    padding: 100px;
+    text-align: center;
+    background-color: #f1f1f1;
+
+}
+
+.secbody3 {
+    padding: 10px;
+    background-color: white;
+}
+
+.scspan1 {
     background-color: black;
     color: white;
     display: inline-block;
     margin: 3px;
+    padding: 0px 6px;
 }
 
-.scsp {
+.scspans {
     background-color: #f1f1f1;
     display: inline-block;
     margin: 10px 1px;
     font-size: small;
+    padding: 0px 6px;
 }
 
-.ins {
-    width: 30%;
-    background-color: white;
+.imgs1 {
+    width: 50%;
+    float: left;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+.imgs1 img {
+    padding-bottom: 10px;
+}
+
+.imgs2 img {
+    padding-bottom: 10px;
+}
+
+.imgs2 {
+    width: 50%;
     float: right;
-    color: black;
-    margin: 15px;
-    position: relative;
-    right: 20px;
+    padding: 8px;
+    padding-bottom: 0;
 }
 
-.insimg1 img {
-    width: 185px;
-    padding: 10px;
-}
-
-.fol {
-    width: 30%;
+.secbody4 {
     background-color: white;
-    float: right;
-    margin: 15px;
-    position: relative;
-    right: 20px;
+    padding: 15px;
+
 }
 
-.foli i {
-    font-size: 30px;
+.secbody4 i {
+    font-size: 25px;
     padding: 1px;
-
 }
 
-.foli {
-    margin: 10px;
+.secbody4 i:hover {
+    color: #a0a0a0;
 }
 
-.email {
-    width: 30%;
+.secbody5 {
     background-color: white;
-    color: black;
-    position: relative;
-    float: right;
-    right: 20px;
-    margin: 15px;
+    padding: 15px;
 }
 
-.ema {
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
     padding: 10px;
+    font-size: 15px;
 }
 
-.emailt {
-    width: 90%;
+.subbotton {
+    width: 100%;
     height: 40px;
-    padding: 20px;
-    text-align: left;
-    position: relative;
-    left: 19px;
-    font-size: medium;
-}
-
-.subs {
-    width: 90%;
-    height: 40px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    left: 19px;
     margin: 10px 0;
     background-color: #f44336;
     color: white;
-    border: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: large;
-
-}
-
-.buttonlike :hover {
-    background-color: lightgray;
-}
-
-.buttomrep :hover {
-    background-color: lightgray;
-    color: black;
     border: none;
+    font-size: 15px;
 }
 
-.buttonlike {
-    width: 40%;
-
-}
-
-.buttomrep {
-    position: relative;
-    bottom: 40px;
-}
-
-.likepart {
-    width: 64%;
-    float: left;
-    background-color: white;
-    padding: 20px;
-    position: relative;
-    margin: 0px 12px;
-}
-
-.like1 {
-    background-color: white;
-    border: 1px gray solid;
-}
-
-.replies {
-    background-color: black;
-    color: white;
-    float: right;
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
-}
-
-.num {
-    background-color: white;
+.subbotton:hover {
+    background-color: lightgrey;
     color: black;
-    padding: 2px 6px;
 }
 
-.num :hover {
-    background-color: white;
-}
 
-.like2 {
-    position: relative;
-    right: 8px;
-}
 
+
+/* end rightside */
+
+/* start fotter */
 footer {
-    background-color: rgba(0, 0, 0, 0.604);
+    background-color: #616161;
     width: 100%;
     float: left;
+    padding-bottom: 50px;
+
+
 }
 
 footer a {
@@ -419,15 +438,106 @@ footer a {
 }
 
 footer i {
-    color: white;
+
+    padding: 0px 10px;
 }
 
 .footerbutton {
     background-color: black;
     box-sizing: border-box;
-    margin: 50px;
+    margin: 40px;
     padding: 10px;
     width: 150px;
     text-align: center;
-    transition: ;
+}
+
+.footerbutton:hover {
+    background-color: #f1f1f1;
+}
+
+.footerbutton:hover a {
+    color: black;
+}
+
+
+
+/* end fotter */
+@media only screen and (max-width: 393px) {
+
+    .textlist {
+        float: right;
+        width: 75%;
+        padding-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 368px) {
+
+    .h1 {
+        font-size: 35px;
+        padding: 24px;
+        padding-top: 60px;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+    .home {
+        font-size: 10px;
+        padding: 70px;
+        padding-top: 0%;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+    .himg {
+        position: absolute;
+        top: 10%;
+
+
+    }
+
+    .bimg {
+        font-weight: 50;
+    }
+
+    .bimgb {
+        font-size: 30px;
+    }
+
+    .butimg {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        background-color: rgba(255, 255, 255, 0.47);
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1086px) {
+    .rightside {
+
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+
+    }
+
+    .leftside {
+
+
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+
 }
