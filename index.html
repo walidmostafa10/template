@@ -88,17 +88,18 @@
                     ullamco.
                 </p>
 
-                <div class="buttonsdiv">
+                <div id="buttonsdiv">
 
                     <button class="likeb"><b><i class="fa fa-thumbs-up"></i> Like</b></button>
 
-                    <button class="repb">Replies <span class="num">1</span></button>
+                    <button id="repbone" onclick=fun6()>Replies <span class="num">1</span></button>
+                    <button id="repb" onclick=fun3()>Replies <span class="num">1</span></button>
 
                 </div>
 
                 <div class="cl"></div>
 
-                <div class="articlefooter">
+                <div id="articlefooter">
 
                     <div class="imgf">
                         <img src="imges/avatar_smoke.jpg" alt="" width="100%">
@@ -129,15 +130,44 @@
                     non fringilla.
                 </p>
 
-                <div class="buttonsdiv">
+                <div id="buttonsdiv2">
 
                     <button class="likeb"><b><i class="fa fa-thumbs-up"></i> Like</b></button>
 
-                    <button class="repb">Replies <span class="num">2</span></button>
+                    <button id="repbtwo" onclick=fun7()>Replies <span class="num">2</span></button>
+                    <button id="repb2" onclick=fun4()>Replies <span class="num">2</span></button>
 
                 </div>
 
                 <div class="cl"></div>
+
+                <div id="articlefootertwo">
+                    <div id="articlefooter2">
+
+                        <div class="imgf">
+                            <img src="imges/girl_train.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="textf">
+                            <h4>Amber <span class="shead">April 26, 2015, 10:52 PM</span></h4>
+                            <p>Great blog post! Following</p>
+                        </div>
+                    </div>
+                    <div id="articlefooter2">
+
+                        <div class="imgf">
+                            <img src="imges/girl.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="textf">
+                            <h4>Angie <span class="shead">April 23, 2015, 9:12 PM</span></h4>
+                            <p>Great blog post! Following</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </article>
 
             <article class="arc2">
@@ -155,15 +185,53 @@
                     non fringilla.
                 </p>
 
-                <div class="buttonsdiv">
+                <div id="buttonsdiv3">
 
                     <button class="likeb"><b><i class="fa fa-thumbs-up"></i> Like</b></button>
 
-                    <button class="repb">Replies <span class="num">3</span></button>
+                    <button id="repbthree" onclick=fun8()>Replies <span class="num">3</span></button>
+                    <button id="repb3" onclick=fun5()>Replies <span class="num">3</span></button>
 
                 </div>
 
                 <div class="cl"></div>
+
+                <div id="articlefooterthree">
+                    <div id="articlefooter2">
+
+                        <div class="imgf">
+                            <img src="imges/girl_mountain.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="textf">
+                            <h4>Jane <span class="shead">April 10, 2015, 7:22 PM</span></h4>
+                            <p>Great blog post! Following</p>
+                        </div>
+                    </div>
+                    <div id="articlefooter2">
+
+                        <div class="imgf">
+                            <img src="imges/boy.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="textf">
+                            <h4>John <span class="shead">April 8, 2015, 10:32 PM</span></h4>
+                            <p>Great blog post! Following</p>
+                        </div>
+                    </div>
+                    <div id="articlefooter2">
+
+                        <div class="imgf">
+                            <img src="imges/girl_hood.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="textf">
+                            <h4>Anja <span class="shead">April 7, 2015, 9:12 PM</span></h4>
+                            <p>Great blog post! Following</p>
+                        </div>
+                    </div>
+
+                </div>
             </article>
         </aside>
         <!-- end leftside -->
@@ -307,10 +375,11 @@
                     <p>Enter your e-mail below and get notified on the latest blog posts.</p>
 
                     <input type="email" placeholder="Enter e-mail">
-                    <button class="subbotton">Subscribe</button>
+                    <button class="subbotton" onclick=fun1()>Subscribe</button>
                 </div>
             </section>
         </aside>
+
 
         <!-- end rightside -->
 
@@ -326,7 +395,70 @@
         </div>
     </footer>
     <!-- end footer -->
+    <div id="Subscribefront">
+        <div class="subform">
+            <div class="headsub">
+                <h1>SUBSCRIBE</h1>
+                <button class="x" onclick=fun2()><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
 
+            <input type="email" placeholder="Enter e-mail">
+            <button class="subbotton2">Subscribe</button>
+        </div>
+    </div>
+
+
+    <script>
+        function fun1() {
+            document.getElementById('Subscribefront').style.visibility = 'visible';
+        }
+        function fun2() {
+            document.getElementById('Subscribefront').style.visibility = 'hidden';
+        }
+
+        function fun3() {
+            document.getElementById('articlefooter').style.display = 'flex';
+            document.getElementById('repb').style.display = 'none';
+            document.getElementById('repbone').style.display = 'block';
+            document.getElementById('buttonsdiv').style.borderBottom = 'rgba(211, 211, 211, 0.555) solid 1px';
+
+        }
+
+        function fun4() {
+            document.getElementById('articlefootertwo').style.display = 'block';
+            document.getElementById('repb2').style.display = 'none';
+            document.getElementById('repbtwo').style.display = 'block';
+            document.getElementById('buttonsdiv2').style.borderBottom = 'rgba(211, 211, 211, 0.555) solid 1px';
+        }
+
+        function fun5() {
+            document.getElementById('articlefooterthree').style.display = 'block';
+            document.getElementById('repb3').style.display = 'none';
+            document.getElementById('repbthree').style.display = 'block';
+            document.getElementById('buttonsdiv3').style.borderBottom = 'rgba(211, 211, 211, 0.555) solid 1px';
+        }
+
+        function fun6() {
+            document.getElementById('articlefooter').style.display = 'none';
+            document.getElementById('repb').style.display = 'block';
+            document.getElementById('repbone').style.display = 'none';
+            document.getElementById('buttonsdiv').style.borderBottom = 'none';
+        }
+
+        function fun7() {
+            document.getElementById('articlefootertwo').style.display = 'none';
+            document.getElementById('repb2').style.display = 'block';
+            document.getElementById('repbtwo').style.display = 'none';
+            document.getElementById('buttonsdiv2').style.borderBottom = 'none';
+        }
+        function fun8() {
+            document.getElementById('articlefooterthree').style.display = 'none';
+            document.getElementById('repb3').style.display = 'block';
+            document.getElementById('repbthree').style.display = 'none';
+            document.getElementById('buttonsdiv3').style.borderBottom = 'none';
+        }
+    </script>
 </body>
 
 </html>
