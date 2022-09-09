@@ -110,14 +110,13 @@ header {
 /* start main */
 main {
     margin: 10px;
+    display: flex;
 }
 
 /* start leftside */
 
 
 .leftside {
-    display: inline-block;
-
     width: 65%;
     background-color: #f1f1f1;
     padding: 20px;
@@ -301,8 +300,6 @@ article {
 /* start rightside */
 
 .rightside {
-    display: inline-block;
-    float: right;
     width: 35%;
     background-color: #f1f1f1;
     padding: 20px;
@@ -354,6 +351,11 @@ section {
 .imglist {
     width: 65px;
     margin: 10px;
+    transition: 0.4s;
+}
+
+.list:hover .imglist {
+    margin-left: 25px;
 }
 
 .secbody2 {
@@ -564,6 +566,7 @@ footer i {
     color: black;
 }
 
+/* =================== */
 
 #repbone {
     padding: 10px 20px;
@@ -665,6 +668,20 @@ footer i {
     }
 
 
+    #Subscribefront .subform p {
+
+        font-size: 15px;
+    }
+
+    #Subscribefront .subform {
+        background-color: white;
+        padding: 25px;
+        width: 80%;
+        margin: auto;
+        margin-top: 170px;
+    }
+
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -695,6 +712,10 @@ footer i {
         padding: 20px;
     }
 
-
+    main {
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
